@@ -69,7 +69,7 @@ export default function App() {
     <Router>
     <div className="bg-white-100 overflow-hidden font-sans h-screen flex flex-col">
       {/* Navigation Bar */}
-      <nav className="bg-purple-500 text-white flex justify-between items-center ">
+      <nav className="fixed w-full bg-purple-500 text-white flex justify-between items-center ">
       <img src={process.env.PUBLIC_URL+'/logo.png'} alt="Your Logo" className="h-8" />
       
       <div className="flex mr-11 ml-2 space-x-6 ">
@@ -89,7 +89,7 @@ export default function App() {
 
       
       {/* Main Content */}
-      <div className="flex-1 flex flex-row">
+      <div className="fixed w-full top-12 flex-1 flex flex-row">
         {/* Left Section */}
         <div className="flex-1 overflow-hidden flex flex-row bg-white border-t border-r border-gray-200 rounded-tr-xl mr-2">
           
